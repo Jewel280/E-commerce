@@ -29,7 +29,6 @@ export class CustomerService {
     @InjectRepository(OrderedEntity)
     private readonly orderedRepo: Repository<OrderedEntity>,
 
-    @InjectRepository(MailerService)
     private readonly mailerService: MailerService
 
   )
