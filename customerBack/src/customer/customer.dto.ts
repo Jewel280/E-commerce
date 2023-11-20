@@ -9,11 +9,7 @@ export class CustomerInfo {
     @IsNotEmpty()
     @IsString()
     username: string;
-    @IsNotEmpty()
-    @IsString()
     password: string;
-    @IsDefined()
-    @IsString()
     address: string;
     filename: string;
   }
